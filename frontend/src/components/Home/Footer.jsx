@@ -19,6 +19,8 @@ const Footer = () => {
       <Text opacity="0.5">Anupriya Lathey (102103373)</Text>
       <Text opacity="0.5">Nitleen Kaur (102103377)</Text>
       <Text opacity="0.5">Pia Gupta (102103394)</Text>
+      <Text opacity="0.5">Riddhi Garg (102103282)</Text>
+      <Text opacity="0.5">Stuti Mittal(102103485)</Text>
     </Flex>
   );
 };

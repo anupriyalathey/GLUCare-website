@@ -8,7 +8,7 @@ import {
   useMediaQuery,
 } from "@chakra-ui/react";
 import React from "react";
-import Sales_Pic from "../../assets/sales_pic.png";
+import Med_Pic from "../../assets/med_pic.png";
 const Hero = () => {
   const [isLargerThanLG] = useMediaQuery("(min-width: 62em)");
   return (
@@ -28,14 +28,15 @@ const Hero = () => {
           mb="4"
         >
           {" "}
-          Sales Predictor
+          GLUCare
         </Text>
 
         <Text mb="6" fontSize={isLargerThanLG ? "lg" : "base"} opacity={0.7}>
-          Predict the sales of your business using our machine learning model.
+          An Advanced Non-Invasive Glucose Monitoring System using NIR
+          Spectroscopy.
         </Text>
 
-        <Button
+        {/* <Button
           w="200px"
           colorScheme="blue"
           variant="solid"
@@ -43,10 +44,10 @@ const Hero = () => {
           size={isLargerThanLG ? "lg" : "md"}
           mb={isLargerThanLG ? "0" : "10"}
         >
-          {/* <a target="_blank" rel="noreferrer" href="/signin">
+          <a target="_blank" rel="noreferrer" href="/signin">
               Predict
-            </a> */}
-        </Button>
+            </a>
+        </Button> */}
       </Box>
       <Spacer />
       <Flex
@@ -54,7 +55,7 @@ const Hero = () => {
         alignItems="center"
         justifyContent="center"
       >
-        <Image src={Sales_Pic} alt="Sales" />
+        <Image src={Med_Pic} alt="Sales" />
       </Flex>
     </Flex>
   );

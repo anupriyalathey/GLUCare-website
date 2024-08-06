@@ -12,9 +12,9 @@ export default function Home() {
     <Box>
       <Nav ref={btnRef} />
       <Hero />
-      {/* <Services />
+      <Services />
       <ContactUs />
-      <Footer /> */}
+      <Footer />
     </Box>
   );
 }

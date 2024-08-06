@@ -15,19 +15,22 @@ const Services = () => {
       flexDirection={isLargerThanLG ? "row" : "column"}
     >
       <Spacer />
-      <Flex
+      {/* <Flex
         w={isLargerThanLG ? "60%" : "full"}
         flexDirection="column"
-        ml={isLargerThanLG ? "7" : "0"}
+        // ml={isLargerThanLG ? "7" : "0"}
       >
-        <Text fontSize={isLargerThanLG ? "5xl" : "4xl"} fontWeight="bold">
-          We build, We revive
+        <Text fontSize={isLargerThanLG ? "2xl" : "xl"}>
+          The concept behind our Smart healthcare device is to provide an
+          efficient and painless alternative to the traditional finger-pricking
+          method of measuring blood glucose levels, which causes people
+          discomfort.{" "}
         </Text>
 
         <Text mb="6" opacity="0.8">
           Predict your sales and revenue with the help of our data analytics.
         </Text>
-      </Flex>
+      </Flex> */}
     </Flex>
   );
 };
