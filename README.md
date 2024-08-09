@@ -1,26 +1,25 @@
-# Sales Predictor
-Predict the sales of your business using our machine learning model.
+# GLUCare -
+
+An Advanced Non-Invasive Glucose Monitoring System using NIR Spectroscopy
 
 ## How to run
-1. Clone this repo 
+
+1. Clone this repo
+
 ```
-https://github.com/anupriyalathey/Sales-Predictor.git
-cd Sales-Predictor
+https://github.com/anupriyalathey/GLUCare-website
+cd GLUCare-website
 ```
 
-2. Start backend server
+2. Install dependencies for frontend
+
 ```
-cd backend 
-python3 app.py
+cd frontend
+yarn install
 ```
 
-3. On a second terminal install dependencies for frontend
-```
-cd frontend 
-npm install
-```
+3. Create a new account on firebase. Rename `.env.example` to `.env` and fill the required keys.
 
-4. Create a new account on firebase. Rename `.env.example` to `.env` and fill the required keys.
 ```
 REACT_APP_FIREBASE_API_KEY=
 REACT_APP_FIREBASE_AUTH_DOMAIN=
@@ -30,21 +29,23 @@ REACT_APP_FIREBASE_MESSAGING_SENDER_ID=
 REACT_APP_FIREBASE_APP_ID=
 REACT_APP_FIREBASE_MEASUREMENT_ID=
 ```
-5. Start your React app
+
+4. Start your React app
+
 ```
 yarn start
 ```
 
-Visit your app on `http://localhost:3001`.
+Visit your app on `http://localhost:3000`.
 
-## Tech Stack 
+## Tech Stack
+
 1. ReactJS
 2. ChakraUI
 3. Firebase
-4. Python
-5. Flask
 
 ## Screenshots
+
 ![image](https://github.com/anupriyalathey/Sales-Predictor/assets/90963726/a51ddde2-4c5d-4f4b-b897-c0e9a1081b65)
 ![image](https://github.com/anupriyalathey/Sales-Predictor/assets/90963726/3b82b543-883c-463e-99fc-f4479e2d2151)
 ![image](https://github.com/anupriyalathey/Sales-Predictor/assets/90963726/27f22e9c-360b-48da-b9d3-43e91457e52f)
