@@ -13,6 +13,7 @@ const Hero = () => {
   const [isLargerThanLG] = useMediaQuery("(min-width: 62em)");
   return (
     <Flex
+      id="top"
       alignItems="center"
       w="full"
       px={isLargerThanLG ? "16" : "6"}
@@ -31,23 +32,10 @@ const Hero = () => {
           GLUCare
         </Text>
 
-        <Text mb="6" fontSize={isLargerThanLG ? "lg" : "base"} opacity={0.7}>
+        <Text mb="6" fontSize={isLargerThanLG ? "3xl" : "2xl"} opacity={0.7}>
           An Advanced Non-Invasive Glucose Monitoring System using NIR
           Spectroscopy.
         </Text>
-
-        {/* <Button
-          w="200px"
-          colorScheme="blue"
-          variant="solid"
-          h="50px"
-          size={isLargerThanLG ? "lg" : "md"}
-          mb={isLargerThanLG ? "0" : "10"}
-        >
-          <a target="_blank" rel="noreferrer" href="/signin">
-              Predict
-            </a>
-        </Button> */}
       </Box>
       <Spacer />
       <Flex

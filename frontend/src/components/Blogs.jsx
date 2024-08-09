@@ -11,22 +11,20 @@ function Blogs() {
       </Box>
 
       <HStack spacing="24px" margin="18px">
-        {/* <Box> */}
         <Box>
           <Button>
             <Link
-              href="https://hermitcrabs.io/blog/sales-forecasting-projection-prediction"
+              href="https://www.apollodiagnostics.in/blog/category/diabetes"
               target="_blank"
               rel="noopener noreferrer"
             >
               View in Full Screen
             </Link>
           </Button>
-          {/*</Box> */}
           <AspectRatio width="480px" ratio={1}>
             <iframe
               title="1"
-              src="https://hermitcrabs.io/blog/sales-forecasting-projection-prediction"
+              src="https://www.apollodiagnostics.in/blog/category/diabetes"
             />
           </AspectRatio>
         </Box>
@@ -34,7 +32,7 @@ function Blogs() {
         <Box>
           <Button>
             <Link
-              href="https://blog.salesflare.com/sales-forecasting"
+              href="https://www.pep2dia.com/blog-pep2dia/human-health/managing-your-blood-sugar-and-well-being/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -44,7 +42,7 @@ function Blogs() {
           <AspectRatio width="480px" ratio={1}>
             <iframe
               title="1"
-              src="https://blog.salesflare.com/sales-forecasting"
+              src="https://www.pep2dia.com/blog-pep2dia/human-health/managing-your-blood-sugar-and-well-being/"
             />
           </AspectRatio>
         </Box>
@@ -52,7 +50,7 @@ function Blogs() {
         <Box>
           <Button>
             <Link
-              href="https://monday.com/blog/crm-and-sales/sales-prediction/"
+              href="https://www.ganeshdiagnostic.com/blog/7-effective-ways-to-manage-your-blood-glucose-level"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -62,7 +60,7 @@ function Blogs() {
           <AspectRatio width="480px" ratio={1}>
             <iframe
               title="1"
-              src="https://monday.com/blog/crm-and-sales/sales-prediction/"
+              src="https://www.ganeshdiagnostic.com/blog/7-effective-ways-to-manage-your-blood-glucose-level"
             />
           </AspectRatio>
         </Box>

@@ -10,6 +10,7 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 import { MoonIcon, SunIcon } from "@chakra-ui/icons";
+
 const Nav = () => {
   const [scroll, setScroll] = useState(false);
   const { colorMode, toggleColorMode } = useColorMode();
@@ -35,27 +36,42 @@ const Nav = () => {
       bg={navBg}
     >
       <Text fontSize="xl" fontWeight="bold">
-        GLUCare
+        <Link href="#top">GLUCare</Link>
       </Text>
 
       <Spacer />
-      {/* <Button>
-            <Link target="_blank" rel="noreferrer" href="/blogs" fontSize="md" >
-              Blogs
-            </Link>
-      </Button> */}
-
-      <Spacer />
       <Flex alignItems="center">
-        <IconButton mr="10" w={6} h={6} p={5} onClick={toggleColorMode}>
-          {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
-        </IconButton>
+        <Button mx={2}>
+          <Link target="_blank" rel="noreferrer" href="/blogs" fontSize="md">
+            Blogs
+          </Link>
+        </Button>
+        <Button mx={2}>
+          <Link href="#about" fontSize="md">
+            About Us
+          </Link>
+        </Button>
 
-        <Button>
+        <Button mx={2}>
+          <Link href="#contact" fontSize="md">
+            Contact Us
+          </Link>
+        </Button>
+        <Button mx={2}>
           <Link target="_blank" rel="noreferrer" href="/signin" fontSize="md">
             Login
           </Link>
         </Button>
+        <IconButton
+          mx={2}
+          w={6}
+          h={6}
+          p={5}
+          onClick={toggleColorMode}
+          aria-label="Toggle color mode"
+        >
+          {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
+        </IconButton>
       </Flex>
     </Flex>
   );

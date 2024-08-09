@@ -13,6 +13,7 @@ const Footer = () => {
       justifyContent="center"
       marginBottom={4}
       paddingTop={4}
+      paddingBottom={4}
     >
       <Text>Build with ❤️ by</Text>
       <Spacer />
