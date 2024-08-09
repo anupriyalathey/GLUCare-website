@@ -4,7 +4,7 @@ import ContactUs from "./Home/ContactUs";
 import Footer from "./Home/Footer";
 import Hero from "./Home/Hero";
 import Nav from "./Home/Nav";
-import Services from "./Home/Services";
+import About from "./Home/About";
 
 export default function Home() {
   const btnRef = useRef();
@@ -12,7 +12,7 @@ export default function Home() {
     <Box>
       <Nav ref={btnRef} />
       <Hero />
-      <Services />
+      <About />
       <ContactUs />
       <Footer />
     </Box>

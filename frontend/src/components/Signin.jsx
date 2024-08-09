@@ -38,7 +38,7 @@ export default function Signin() {
     signInWithEmailAndPassword(auth, values.email, values.pass)
       .then(async (res) => {
         setSubmitButtonDisabled(false);
-        navigate("/");
+        navigate("/profile");
       })
       .catch((err) => {
         setSubmitButtonDisabled(false);

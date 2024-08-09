@@ -36,7 +36,7 @@ const Nav = () => {
       bg={navBg}
     >
       <Text fontSize="xl" fontWeight="bold">
-        <Link href="#top">GLUCare</Link>
+        <Link href="/">GLUCare</Link>
       </Text>
 
       <Spacer />
@@ -57,7 +57,7 @@ const Nav = () => {
             Contact Us
           </Link>
         </Button>
-        <Button mx={2}>
+        <Button mx={2} colorScheme="blue">
           <Link target="_blank" rel="noreferrer" href="/signin" fontSize="md">
             Login
           </Link>
