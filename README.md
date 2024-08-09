@@ -1,4 +1,4 @@
-# GLUCare -
+# GLUCare 
 
 An Advanced Non-Invasive Glucose Monitoring System using NIR Spectroscopy
 
@@ -45,9 +45,9 @@ Visit your app on `http://localhost:3000`.
 3. Firebase
 
 ## Screenshots
-
-![image](https://github.com/anupriyalathey/Sales-Predictor/assets/90963726/a51ddde2-4c5d-4f4b-b897-c0e9a1081b65)
-![image](https://github.com/anupriyalathey/Sales-Predictor/assets/90963726/3b82b543-883c-463e-99fc-f4479e2d2151)
+![image](https://github.com/user-attachments/assets/3d09962d-a971-44b1-b93d-df85974cbc2e)
+![image](https://github.com/user-attachments/assets/682512ea-0659-4ee2-ad58-8254cd0af1ab)
+![image](https://github.com/user-attachments/assets/4a86ab36-b530-40cc-a169-10a9a298b770)
+![image](https://github.com/user-attachments/assets/ae93ce8a-e8b4-4acb-9f80-f537fcf6323d)
 ![image](https://github.com/anupriyalathey/Sales-Predictor/assets/90963726/27f22e9c-360b-48da-b9d3-43e91457e52f)
 ![image](https://github.com/anupriyalathey/Sales-Predictor/assets/90963726/09d3955c-0347-47ae-a0bc-78696ca11e75)
-![image](https://github.com/anupriyalathey/Sales-Predictor/assets/90963726/71258073-5f76-4493-8d07-8550bab82a63)
