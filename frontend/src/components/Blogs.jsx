@@ -6,7 +6,7 @@ function Blogs() {
     <>
       <Box textAlign="center" paddingTop="40px" paddingBottom="40px">
         <Text fontSize="4xl" fontWeight="bold">
-          Sales Forecasting Blogs
+          Diabetes Management Blogs
         </Text>
       </Box>
 
