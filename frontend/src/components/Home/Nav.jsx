@@ -14,7 +14,7 @@ import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 const Nav = () => {
   const [scroll, setScroll] = useState(false);
   const { colorMode, toggleColorMode } = useColorMode();
-  const navBg = useColorModeValue("white", "#1A212D");
+  const navBg = useColorModeValue("gray.100", "gray.900");
 
   const changeScroll = () =>
     document.body.scrollTop > 80 || document.documentElement.scrollTop > 80
